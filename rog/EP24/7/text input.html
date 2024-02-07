@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าล็อกอิน</title>
+</head>
+<body>
+    <main>
+        <form>
+            <form action="/login" method="post">
+                <div>
+                    <label for="username">ชื่อ:</label>
+                    <input type="text" id="username" name="username" required placeholder="Name" required><br>
+                    <label for="fname">นามสกุล:</label>
+                    <input type="fname" id="fname" name="fname" required placeholder="fname" required><br>
+                </div>
+                <div>
+                    <label for="email">รหัสนิสิต</label>
+                    <input id="email" type="email" />
+                </div>
+                <form>
+                    <input type="radio" name="sex" value="male" checked>ชาย
+                    <br />
+                    <input type="radio" name="sex" value="female">หญิง
+                </form>
+                <div>
+
+                    <label for="comp">Favorite CSS Compiler</label>
+              
+                    <select id="comp">
+              
+                      <option value="sass">ชาย</option>
+              
+                      <option value="less">หญิง</option>
+              
+                      <option value="stylus">ไม่ระบุ</option>
+
+                    </select>
+              
+                </div>
+                <div>
+
+                    <fieldset>
+              
+                      <legend>Are you familiar with CSS Grid?</legend>
+              
+                      <input type="radio" name="grid" id="yes" value="yes" />
+              
+                      <label for="yes">Yes</label>
+              
+                      <input type="radio" name="grid" id="no" value="no" />
+              
+                      <label for="no">No</label>
+              
+                    </fieldset>
+              
+                  </div>
+              
+              
+                <input type="submit" value="เข้าสู่ระบบ">
+        </form>
+    </main>
+</body>
+</html>

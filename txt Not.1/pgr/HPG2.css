@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('pexels-instawalli-169789.jpg'); /* เปลี่ยนเป็น URL ของรูปภาพพื้นหลังที่คุณต้องการ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 20px rgba(244, 187, 3, 0.2);
+}
+
+h1 {
+    color: #e60000;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #00b348;
+}
+
+#results {
+    font-size: 20px;
+    margin-top: 20px;
+}
